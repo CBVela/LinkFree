@@ -15,12 +15,11 @@ Este guia é destinado à pessoal interno e profissionais da CBVela e tem como o
 Para editar o LINKFREE e adicionar ou remover conteúdo
   - Faça Login no GITHUB com seu cadastro já aprovado
   - Vá para o aquivo clicando [index.html](https://github.com/CBVela/LinkFree/blob/main/index.html) principal do repositório https://github.com/CBVela/LinkFree
-  - Abra o arquivo em módo edição clicando no lápis de edição no canto superio do arquivo
+  - Abra o arquivo em módo edição clicando no lápis de edição no canto superior direito da tela
 
   
  ![Exemplo](https://cbvela.github.io/LinkFree/images/exemplo_editar_github.png)
    
-    <!-- Change the title to your name -->
   
   3.1
   - Selecione o pedaço de código que deseja apagar e ou remover.
@@ -35,23 +34,25 @@ Para editar o LINKFREE e adicionar ou remover conteúdo
         </a>
         <!-- link ends here -->
   ```
-Repare que onde tem <a href=" alguma coisa "> é um link, este arquivo altera o destino de onde a pessoa vai quando ela clica neste botão
+Repare que onde tem `<a href=" alguma coisa ">`é um link, este arquivo altera o destino de onde a pessoa vai quando ela clica neste botão
 
-O que está dentro do <span>Site</span> É o nome como ele aparece. Então para ir pro SITE a pessoa clica no Nome e vai para o link definido anteriormente
+O que está dentro do `<span>Site</span> ` 
 
-```
-
+É o nome como ele aparece. Então para ir pro SITE a pessoa clica no Nome e vai para o link definido anteriormente
+ 
 Caso queira remover um link basta apagar o pedaço de bloco inteiro 
 
-Tudo o que está entre:  <!-- Links section begins here -->
-E este outro comentários:         <!-- link ends here -->
+Tudo o que está entre: `  <!-- Links section begins here --> `
+E este outro comentários:    `     <!-- link ends here --> `
 
 
 Para adicionar um novo link você pode copiar e colar o pedaçõ de código fornecido no item
 
   4.1
-  Para salvar as alterações Insira um titulo par sua alteração e uma descrição dos itens alterados para controle de versão.
+- Para salvar as alterações Insira um titulo par sua alteração e uma descrição dos itens alterados para controle de versão.
  ![Exemplo](https://cbvela.github.io/LinkFree/images/exemplo_commit_github.png)
+- Enseguida clique em commit changes
+- Deve demorar alguns segundos para sua alteração aparecer em https://cbvela.github.io/LinkFree
 
    
 
